@@ -1,2 +1,11 @@
 # The Gallery
  The Gallery website 
+This Website is Developed by John Lloyd Cyrus Ola of BSIT-3D 2023.
+
+The Workplace in which the web pages are developed are all coded in VS Code.
+
+Not all the code is Originally coded by the developer some of them are simply modified template from the internet and from the sample code from the Docs of Bootstrap.
+
+Bootstrap is the only Framework used for the website.
+The Image and Photos are all originals Painted, Captured, and Edited by yours truly the Developer.
+Color Pallet of the website and Design are inspired by a Gallery from France that I saw from the Internet and a Museum somewhere in London also from the internet. 
