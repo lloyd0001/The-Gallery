@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Art Gallery | Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../style/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<!----NavBar--Start--Here-------------------------------------------------------------------------------------------- -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid"  id="navBody">
+    <a class="navbar-brand" href="../index.html"><b>The Gallery</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" id="active" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="pages/gallery.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pages/gallery.html">Digital Works</a></li>
+            <li><a class="dropdown-item" href="pages/gallery.html">Photography</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="pages/gallery.html">Buy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!----Content--Start--Here-------------------------------------------------------------------------------------------- -->
+      <section class="vh-100">
+         <div class="container-fluid"  id="wall">
+           <div class="row">
+             <div class="col-sm-6 text-black">
+       
+               <div class="px-4 ms-xl-4" id="logospace">
+                 <span class="navbar-brand" class="h1 fw-bold mb-0" >The Gallery</span>
+               </div>
+       
+               <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 pt-5 pt-xl-0 mt-xl-n5">
+       
+                 <form style="width: 23rem;">
+       
+                   <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
+       
+                   <div class="form-outline mb-4">
+                     <input type="email" id="form2Example18" class="form-control form-control-lg" />
+                     <label class="form-label" for="form2Example18">User Name</label>
+                   </div>
+       
+                   <div class="form-outline mb-4">
+                     <input type="password" id="form2Example28" class="form-control form-control-lg" />
+                     <label class="form-label" for="form2Example28">Password</label>
+                   </div>
+       
+                   <div class="pt-1 mb-3">
+                     <button class="deBut" class="btn btn-info btn-lg btn-block" type="button">Login</button>
+                   </div>
+       
+                   <p class="small pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
+                   <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
+       
+                 </form>
+       
+               </div>
+
+             </div>
+             <div class="col-sm-6 px-0 d-none d-sm-block">
+               <img src="img/Photography/No.1.jpeg"
+                 alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+             </div>
+           </div>
+         </div>
+       </section>
+
+<!----Footer--Start--Here-------------------------------------------------------------------------------------------- -->
+    <footer class="spaceTop" style="background-color: #DDDDDD;">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4">
+            <h5 class="navbar-brand" class="mb-3">The Gallery</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+              voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="mb-3 text-dark">More On</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">FAQ</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Classes</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Pricing</a>
+              </li>
+              <li>
+                <a href="#!" style="color: #4f4f4f;">Safety</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="mb-1 text-dark">Gallery Active Hours</h5>
+            <table class="table" style="border-color: #666;">
+              <tbody>
+                <tr>
+                  <td>Mon - Fri:</td>
+                  <td>10am - 8pm</td>
+                </tr>
+                <tr>
+                  <td>Sat - Sun:</td>
+                  <td>8am - 9pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="#">John Lloyd Cyrus</a>
+      </div>
+    </footer> 
+  </div>
+
+      
+    <script src="../style/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
